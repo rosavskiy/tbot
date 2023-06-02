@@ -1,6 +1,6 @@
 import telebot
 # Создаем экземпляр бота
-bot = telebot.TeleBot('6184136627:AAH-ibJIZXuw-RM3Lawo9k8-26ARbvJIyAE')
+bot = telebot.TeleBot('')
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
